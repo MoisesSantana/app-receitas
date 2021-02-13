@@ -23,3 +23,11 @@ A Trybe propôs um projeto em equipe onde nosso código seria submetido ao avali
 Utilizamos o Trello para por em prática, o framework escolhido foi o kanban, onde nosso backlog foi separado em várias colunas de páginas, além das colunas para estilização e de PR. O projeto foi feito em react hooks com context API para gerenciar os estados, foi feito a utilização do react-router-dom para gerenciar as rotas.
 
 ---
+
+### Acesso
+
+Para utilizar o app acesse: https://coffeandcode.netlify.app/
+
+*** Atenção ***
+
+A aplicação foi criado para dispositivos móveis.
