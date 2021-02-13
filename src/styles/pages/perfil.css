@@ -1,0 +1,45 @@
+.container-btn-perfil {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+h4 {
+  background-color: black;
+  color: white;
+  font-weight: 900;
+  margin: 0;
+  text-align: center;
+}
+
+.container-btn-perfil {
+  align-items: center;
+  background-color: rgb(180, 118, 36);
+  display: flex;
+  flex-direction: column;
+  height: 79vh;
+  justify-content: center;
+  row-gap: 50px;
+  width: 100%;
+}
+
+/*
+https://www.visualdicas.com.br/programacao/css/
+12-criando-botoes-personalizados-css
+*/
+
+.container-btn-perfil a {
+  width: 95%;
+}
+
+.btn-perfil {
+  background: black;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  font-size: 13px;
+  height: 50px;
+  width: 100%;
+}

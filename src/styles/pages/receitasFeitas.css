@@ -1,0 +1,105 @@
+.finished-recipes-container {
+  background-color: rgb(130, 68, 0);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100vw;
+}
+
+.container-btn {
+  align-items: center;
+  background-color: rgb(180, 118, 36);
+  display: flex;
+  flex-direction: column;
+  height: 180px;
+  width: 100%;
+}
+
+.btn-recipes {
+  background: black;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px;
+  height: 30px;
+  margin-top: 20px;
+  transition: 0.3s;
+  width: 95%;
+}
+
+.btn-recipes:last-child {
+  margin-bottom: 20px;
+}
+
+.btn-recipes:focus {
+  height: 50px;
+}
+
+.recipe-list-container {
+  align-items: center;
+  display: flex;
+  row-gap: 50px;
+  flex-direction: column;
+}
+
+.holder-finished-recipes {
+  align-items: center;
+  background-color: rgb(180, 118, 36);
+  display: flex;
+  position: relative;
+  width: 80%;
+}
+
+.holder-finished-recipes:first-child {
+  margin-top: 50px;
+}
+
+.holder-finished-recipes:last-child {
+  margin-bottom: 50px;
+}
+
+.image-finished-recipes {
+  height: 100px;
+}
+
+.recipe-info {
+  align-items: center;
+  background-color: rgb(180, 118, 36);
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+}
+
+.recipe-info-up {
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.recipe-info-up span {
+  color: white;
+}
+
+.recipe-info-up span:first-child {
+  font-weight: 900;
+}
+
+.span-tag {
+  background-color: white;
+  color: black;
+}
+
+.share-btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.btn-copy {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  box-shadow: 1px 1px 3px black;
+}

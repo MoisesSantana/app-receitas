@@ -1,0 +1,37 @@
+.container-btn-explorar {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.container-btn-explorar {
+  align-items: center;
+  background-color: rgb(180, 118, 36);
+  display: flex;
+  flex-direction: column;
+  height: 79vh;
+  justify-content: center;
+  row-gap: 50px;
+  width: 100%;
+}
+
+/*
+https://www.visualdicas.com.br/programacao/css/
+12-criando-botoes-personalizados-css
+*/
+
+.container-btn-explorar a {
+  width: 95%;
+}
+
+.btn-explorar {
+  background: black;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  font-size: 13px;
+  height: 50px;
+  width: 100%;
+}

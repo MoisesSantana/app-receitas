@@ -1,0 +1,77 @@
+.recipe-process-food {
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.image-recipe-process-food {
+  height: 40vh;
+  margin: 0;
+  width: 100%;
+}
+
+.title-process-food {
+  font-size: 30px;
+  margin-left: 25px;
+}
+
+h3 {
+  color: grey;
+  font-size: 15px;
+}
+
+.container-copy-favorite-food {
+  background-color: white;
+  border: none;
+  display: block;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.title {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.ingredient-step {
+  margin-left: 40px;
+}
+
+.check {
+  margin-right: 10px;
+}
+
+.instructions {
+  margin-left: 40px;
+}
+
+.container-btn {
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.btn-finish {
+  background: linear-gradient(to bottom, black 5%, grey 100%);
+  border: 1px solid lightslategray;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 6px 10px;
+}
+
+.btn-finish:hover {
+  background: linear-gradient(to bottom, grey 5%, black 100%);
+}
+
+.btn-finish:active {
+  position: relative;
+  top: 2px;
+}

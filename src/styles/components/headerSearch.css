@@ -1,0 +1,93 @@
+.header-search {
+  background-color: rgb(180, 118, 36);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.input-header-text {
+  height: 50px;
+  margin-top: 10px;
+  width: 95vw;
+}
+
+/* https://nandovieira.com.br/usando-css3-para-formatar-radio-buttons */
+
+.main-radio-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.radio-container {
+  height: 60px;
+  position: relative;
+  width: 80px;
+}
+
+.radio-container label {
+  background-position: center center;
+  border-radius: 5px;
+  bottom: 1px;
+  cursor: pointer;
+  display: block;
+  font-size: 0;
+  left: 1px;
+  position: absolute;
+  right: 1px;
+  text-indent: 100%;
+  top: 1px;
+}
+
+.radio-container .ingredient-label {
+  background-image: url(../../images/ingredient.png);
+  background-size: 100%;
+}
+
+.radio-container .name-label {
+  background-image: url(../../images/name.png);
+  background-size: 100%;
+}
+
+.radio-container .first-letter-label {
+  background-image: url(../../images/first-letter.png);
+  background-size: 100%;
+}
+
+.radio-container input {
+  opacity: 0;
+}
+
+.radio-container input:checked + label {
+  border: 2px dotted rgb(130, 68, 0);
+}
+
+.radio-container input:checked + label {
+  border: 4px solid rgb(130, 68, 0);
+}
+
+.btn-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.btn-header-search {
+  background: black;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px;
+  height: 30px;
+  margin-top: 10px;
+  width: 95%;
+}
+
+.btn-container hr {
+  width: 100%;
+}

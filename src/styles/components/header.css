@@ -1,0 +1,43 @@
+/*
+https://qastack.com.br/programming/2603700/
+how-to-align-3-divs-left-center-right-inside-another-div
+*/
+
+.container-header {
+  align-items: baseline;
+  background-color: rgb(130, 68, 0);
+  border: none;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  flex-flow: nowrap;
+  height: 100px;
+  justify-content: space-around;
+  margin: 0;
+  top: 0;
+  width: 100vw;
+}
+
+.color-btn-header {
+  background-color: rgb(130, 68, 0);
+  border: none;
+}
+
+.left-header {
+  background-color: rgb(130, 68, 0);
+  border: none;
+}
+
+.center-header {
+  color: black;
+}
+
+.center-header h1 {
+  margin: 0;
+}
+
+.right-header {
+  background-color: rgb(130, 68, 0);
+  border: none;
+  margin-top: 50px;
+}

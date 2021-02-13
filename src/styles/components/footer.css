@@ -1,0 +1,12 @@
+.footer {
+  align-items: center;
+  background-color: rgb(130, 68, 0);
+  bottom: 0;
+  display: flex;
+  flex-flow: nowrap;
+  flex-direction: row;
+  height: 50px;
+  justify-content: space-around;
+  position: fixed;
+  width: 100vw;
+}

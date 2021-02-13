@@ -1,0 +1,91 @@
+/*
+https://pt.stackoverflow.com/questions/288878/
+como-dispor-imagens-uma-ao-lado-da-outra-com-t%C3%ADtulos-abaixo-em-css
+*/
+
+.container {
+  align-items: center;
+  background-color: rgb(130, 68, 0);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+  row-gap: 50px;
+  width: 100vw;
+}
+
+.holder {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 85%;
+}
+
+.holder:first-child {
+  margin-top: 50px;
+}
+
+.holder .image-link {
+  align-items: center;
+  display: flex;
+  height: 90%;
+  width: 100%;
+}
+
+.image-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.holder img {
+  width: 80%;
+  margin: auto;
+}
+
+.subtitle-container {
+  background-color: black;
+  border-radius: 0 10px 10px 0;
+  height: 20px;
+  width: 105%;
+}
+
+.subtitle-container h4 {
+  color: white;
+  cursor: pointer;
+  text-align: center;
+}
+
+.container-btn {
+  align-items: flex-start;
+  display: flex;
+  height: 80px;
+  width: 100vw;
+}
+
+/*
+https://www.visualdicas.com.br/programacao/css/
+12-criando-botoes-personalizados-css
+*/
+
+.see-more {
+  background: black;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  font-size: 13px;
+  height: 30px;
+  width: 95%;
+}
+
+.see-more:hover {
+  background: black;
+}
+
+.see-more:active {
+  position: relative;
+  top: 2px;
+}

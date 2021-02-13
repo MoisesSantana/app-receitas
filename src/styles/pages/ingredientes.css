@@ -1,0 +1,53 @@
+.main-ingredient-container {
+  align-items: center;
+  background-color: rgb(130, 68, 0);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100vw;
+}
+
+.holder-ingredients {
+  align-items: center;
+  background-color: rgb(180, 118, 36);
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 20px;
+  width: 100%;
+}
+
+.ingredient-btn {
+  background-color: rgb(130, 68, 0);
+  border: none;
+  box-shadow: 1px 1px 3px black;
+  width: 45%;
+}
+
+.ingredient-name {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+.container-btn {
+  align-items: center;
+  background-color: rgb(180, 118, 36);
+  display: flex;
+  flex-direction: column;
+  height: 180px;
+  width: 100%;
+}
+
+.see-more {
+  background: black;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  font-size: 13px;
+  height: 30px;
+  width: 95%;
+}

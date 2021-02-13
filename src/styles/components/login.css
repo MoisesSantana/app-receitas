@@ -1,0 +1,92 @@
+.container-login {
+  align-items: center;
+  background: linear-gradient(to top, rgb(130, 68, 0), rgb(180, 118, 36));
+  box-sizing: border-box;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.header-login {
+  color: black;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+  margin: 0;
+}
+
+.login {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 35vh;
+  justify-content: space-around;
+  margin: auto;
+  padding: 0;
+}
+
+input {
+  border: none;
+  border-radius: 4px;
+  box-shadow: 1px 1px 2px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+input::placeholder {
+  text-align: center;
+}
+
+.coffee {
+  background-color: rgb(160, 98, 16);
+  border-radius: 100%;
+  box-shadow: 1px 1px 3px black;
+  margin-top: 30px;
+  width: 150px;
+}
+
+.container-btn-enter {
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/*
+https://www.visualdicas.com.br/programacao/css/
+12-criando-botoes-personalizados-css
+*/
+
+.btn-login {
+  background-color: rgb(160, 98, 16);
+  border: none;
+  border-radius: 3px;
+  color: grey;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  margin-top: 10px;
+  transition: 0.1s;
+}
+
+.btn-login:enabled {
+  background-color: black;
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  opacity: 1;
+  width: 200px;
+  transition: 1s;
+}
+
+.btn-login:hover:enabled {
+  box-shadow: rgba(0, 0, 0, black);
+}
+
+.btn-login:active:enabled {
+  position: relative;
+  top: 2px;
+}

@@ -1,0 +1,9 @@
+.favorite-btn {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  box-shadow: 1px 1px 3px black;
+}
+
+.favorite-img {
+  width: 20px;
+}
